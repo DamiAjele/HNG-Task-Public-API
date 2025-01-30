@@ -7,7 +7,7 @@ This project is a simple public API that returns basic information in JSON forma
 
 ## Setup Instructions
 
-### Prerequitse
+### Prerequisite
 - Node.js 
 
 ### Run Project Locally
