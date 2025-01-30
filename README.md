@@ -5,6 +5,22 @@ This project is a simple public API that returns basic information in JSON forma
 - The current datetime in ISO 8601 format (UTC).
 - The GitHub URL of the project's codebase.
 
+## Setup Instructions
+
+### Prerequitse
+- Node.js 
+
+### Run Project Locally
+
+#### Install Dependencies
+
+```bash
+npm install
+```
+- Start Server
+
+The API will be available at port 3000
+
 ## API Specification
 
 ### Endpoint
@@ -17,15 +33,15 @@ This project is a simple public API that returns basic information in JSON forma
   "current_datetime": "2025-01-30T09:30:00Z",
   "github_url": "https://github.com/yourusername/your-repo"
 }
+```
 
-## Setup Instructions
+## How to Fetch API
+```javascript
+fetch('https://hng-task-public-api.onrender.com')
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('Error:', error));
+```
+## Hire a Skilled Backend Developer
 
-### Prerequitse
-- Node.js 
-- Express.js
-
-### Run Project Locally
-- install dependencies
-- start server
-
-The API will be available at port 3000
+https://hng.tech/hire/nodejs-developers
