@@ -11,7 +11,7 @@ app.use(cors());
 // API Endpoint
 app.get("/", (request, response) => {
     response.json({
-        email: "damilolaaje05@gmail.com",
+        email: "damilolaajele05@gmail.com",
         current_datetime: new Date().toISOString(),
         github_url: "https://github.com/DamiAjele/HNG-Task-Public-API"
     });
